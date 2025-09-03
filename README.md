@@ -3,7 +3,7 @@
 Specificațiile Produsului:
 
 1. Introducere
-Acest proiect prezintă un sistem de alarmă pe bază de LDR, realizat pe platforma NUCLEO STM32-F466RE, ce utilizează un sistem de operare în timp real (FreeRTOS) pentru a crea un sistem eficient de monitorizare a securității. Sistemul are o aplicație dedicată pentru armarea și dezarmarea alarmei, acesta detectând orice întrerupere a fasciculului laser și declanșează o alarmă acustică.
+Acest proiect prezintă un sistem de alarmă pe bază de LDR, realizat pe platforma NUCLEO STM32-F446RE, ce utilizează un sistem de operare în timp real (FreeRTOS) pentru a crea un sistem eficient de monitorizare a securității. Sistemul are o aplicație dedicată pentru armarea și dezarmarea alarmei, acesta detectând orice întrerupere a fasciculului laser și declanșează o alarmă acustică.
 
 2. Obiective
 •	Crearea a 4 task-uri cu diferite priorități, unul fiind de tipul real-time
@@ -26,7 +26,7 @@ Acest proiect prezintă un sistem de alarmă pe bază de LDR, realizat pe platfo
 
 4. Descrierea Hardware și Software
 Hardware:
-•	Placa de dezvoltare: NUCLEO STM32F466RE - ARM Cortex-M4.
+•	Placa de dezvoltare: NUCLEO STM32F446RE - ARM Cortex-M4.
 •	Componente adiționale:
 o	Fotorezistor (LDR) – ADC1
 o	Modul laser – PB5
